@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Peptides Glow Wellness — Research Peptides Catalog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="Peptides Glow Wellness — research-use-only peptide catalog with a Filipina peptide girly aesthetic. All products are strictly for laboratory, research, and development purposes.">
+  <meta name="keywords" content="research peptides, Tirze, Reta, GHK-Cu, Cagri, Lipo-C, NAD+, KPV, Semax, Selanx, Glutathione, Lemon Bottle, Aqualyx, SS-31, AOD, research only, catalog, Peptides Glow Wellness">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Optional: Bootstrap + your original style.css if you want -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    :root {
+      --pgw-pink: #ffb7d5;
+      --pgw-rose: #f28ab2;
+      --pgw-peach: #ffd7b5;
+      --pgw-cream: #fff7f1;
+      --pgw-lilac: #e6ddff;
+      --pgw-deep: #3c2030;
+      --pgw-hero-pink: #c84788;
+      --pgw-gradient: linear-gradient(135deg, #ff8fb8, #ffb884);
+      --pgw-gradient-hover: linear-gradient(135deg, #ff7aa8, #ffad71);
+
+      /* Dark mode palette */
+      --pgw-dark-bg: radial-gradient(circle at top, #1b0f19 0, #120912 35%, #09040a 100%);
+      --pgw-dark-card: #1f1021;
+      --pgw-dark-border: rgba(255, 182, 226, 0.22);
+      --pgw-dark-text: #fbe9ff;
+      --pgw-dark-muted: #c7a4d3;
+      --pgw-dark-hero: rgba(34, 14, 39, 0.9);
+      --pgw-dark-pink-soft: #ff9ac7;
+    }
+
+    * {
+      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #ffe9f7 0, #fffdfb 40%, #f8f0ff 100%);
+      color: #4b4b4b;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+
+    /* ===== HERO SECTION ===== */
+
+    .site-blocks-cover {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      transition: background 0.4s ease;
+    }
+
+    .site-blocks-cover::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top left, rgba(255,193,218,0.8), transparent 55%),
+                  radial-gradient(circle at top right, rgba(250,220,190,0.8), transparent 55%),
+                  rgba(68,26,52,0.4);
+      mix-blend-mode: soft-light;
+      transition: background 0.4s ease, opacity 0.4s ease;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 28px 24px 30px;
+      background: rgba(255, 247, 241, 0.94);
+      border-radius: 28px;
+      box-shadow: 0 24px 60px rgba(71, 24, 48, 0.45);
+      backdrop-filter: blur(10px);
+      color: var(--pgw-hero-pink);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+    }
+
+    .hero-inner h1,
+    .hero-inner h4,
+    .hero-inner p,
+    .hero-inner .girly-label,
+    .hero-inner .filipina-note,
+    .hero-inner .disclaimer {
+      color: var(--pgw-hero-pink);
+    }
+
+    .hero-inner strong {
+      color: var(--pgw-hero-pink);
+      font-weight: 600;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 16px;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #b5557e;
+      box-shadow: 0 6px 16px rgba(186, 111, 142, 0.25);
+      transition: background 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .hero-pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #ff8fb8;
+    }
+
+    h1 {
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      font-weight: 500;
+    }
+
+    .girly-label {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .filipina-note {
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    /* ===== MODERN BUTTONS ===== */
+
+    .btn-telegram,
+    .btn-pill-secondary,
+    .filter-pill {
+      border-radius: 999px;
+      padding: 10px 22px;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-telegram {
+      background-image: var(--pgw-gradient);
+      color: #fff !important;
+      box-shadow: 0 12px 30px rgba(225, 123, 167, 0.6);
+    }
+
+    .btn-telegram:hover {
+      background-image: var(--pgw-gradient-hover);
+      transform: translateY(-1px) scale(1.02);
+      box-shadow: 0 16px 40px rgba(225, 123, 167, 0.75);
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .btn-pill-secondary {
+      background: transparent;
+      border: 1px solid rgba(255, 143, 184, 0.7);
+      color: var(--pgw-hero-pink);
+      backdrop-filter: blur(5px);
+    }
+
+    .btn-pill-secondary:hover {
+      background: rgba(255, 255, 255, 0.95);
+      border-color: rgba(255, 143, 184, 0.9);
+      transform: translateY(-1px);
+      box-shadow: 0 10px 26px rgba(211, 135, 170, 0.4);
+      color: var(--pgw-hero-pink);
+      text-decoration: none;
+    }
+
+    /* ===== THEME TOGGLE BUTTON ===== */
+
+    .theme-toggle {
+      position: fixed;
+      top: 14px;
+      right: 16px;
+      z-index: 1000;
+      border-radius: 999px;
+      padding: 7px 14px;
+      border: 1px solid rgba(255, 143, 184, 0.5);
+      background: rgba(255, 249, 252, 0.9);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(164, 84, 121, 0.3);
+      color: #b5557e;
+      backdrop-filter: blur(10px);
+      transition: all 0.25s ease;
+    }
+
+    .theme-toggle span {
+      font-size: 16px;
+      line-height: 1;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(255, 255, 255, 0.98);
+      transform: translateY(-1px);
+      box-shadow: 0 12px 28px rgba(164, 84, 121, 0.45);
+    }
+
+    /* ===== SECTIONS & TITLES ===== */
+
+    .section-title {
+      font-weight: 700;
+      color: var(--pgw-deep);
+    }
+
+    .section-subtitle {
+      font-size: 13px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: #c987a6;
+    }
+
+    .catalog-section {
+      background: radial-gradient(circle at top left, #ffeef6 0, transparent 45%),
+                  radial-gradient(circle at top right, #fff0dd 0, transparent 45%),
+                  var(--pgw-cream);
+      padding-top: 60px;
+      padding-bottom: 60px;
+      transition: background 0.4s ease;
+    }
+
+    .catalog-header {
+      max-width: 720px;
+      margin: 0 auto 24px;
+    }
+
+    /* ===== FILTER BAR ===== */
+
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .filter-pill {
+      padding: 7px 16px;
+      font-size: 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(255, 143, 184, 0.4);
+      color: #b5557e;
+      box-shadow: 0 6px 16px rgba(181, 109, 140, 0.15);
+    }
+
+    .filter-pill:hover {
+      background: #fff;
+      border-color: rgba(255, 143, 184, 0.7);
+      transform: translateY(-1px);
+    }
+
+    .filter-pill.active {
+      background-image: var(--pgw-gradient);
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 10px 24px rgba(225, 123, 167, 0.4);
+    }
+
+    /* ===== CATALOG CARDS ===== */
+
+    .category-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: #ffe5f0;
+      color: #b54c7e;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      margin-bottom: 6px;
+      transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+    .catalog-card {
+      border-radius: 18px;
+      padding: 20px 18px 18px;
+      background: #ffffff;
+      border: 1px solid rgba(244, 219, 231, 0.8);
+      box-shadow: 0 18px 40px rgba(133, 74, 104, 0.08);
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      transform: translateY(0);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.4s ease;
+    }
+
+    .catalog-card::after {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(255,183,213,0.5), transparent 60%);
+      bottom: -60px;
+      right: -50px;
+      opacity: .7;
+      pointer-events: none;
+      transition: opacity 0.4s ease;
+    }
+
+    .catalog-card h3 {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: var(--pgw-deep);
+      transition: color 0.4s ease;
+    }
+
+    .peptide-code {
+      font-size: 12px;
+      color: #b08f9c;
+      margin-bottom: 8px;
+      transition: color 0.4s ease;
+    }
+
+    .peptide-notes {
+      font-size: 13px;
+      margin-bottom: 10px;
+      color: #5e4954;
+      transition: color 0.4s ease;
+    }
+
+    .catalog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 24px 60px rgba(89, 36, 68, 0.18);
+      border-color: rgba(255, 169, 204, 0.9);
+    }
+
+    .tag-mini {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #fef2ff;
+      color: #9962c2;
+      font-size: 11px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+
+    .disclaimer,
+    .disclaimer strong {
+      font-size: 11px;
+      color: #7b6672;
+      transition: color 0.4s ease;
+    }
+
+    .peptide-hidden {
+      display: none !important;
+    }
+
+    /* ===== TELEGRAM SECTION ===== */
+
+    .telegram-section {
+      background: linear-gradient(135deg, #ffe5f4, #fff0df, #f2e9ff);
+      padding: 60px 0;
+      transition: background 0.4s ease;
+    }
+
+    .telegram-card {
+      border-radius: 22px;
+      background: rgba(255, 247, 241, 0.97);
+      box-shadow: 0 18px 45px rgba(109, 70, 92, 0.28);
+      padding: 28px 24px;
+      max-width: 560px;
+      margin: 0 auto;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    }
+
+    .peptide-girly-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.85);
+      color: #b2547f;
+      box-shadow: 0 8px 20px rgba(155, 92, 123, 0.25);
+      transition: background 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    /* ===== FOOTER ===== */
+
+    footer {
+      background: #3b2331;
+      padding: 18px 0 16px;
+      transition: background 0.4s ease;
+    }
+
+    footer p {
+      margin-bottom: 4px;
+    }
+
+    .logo-text {
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #ffdfef;
+    }
+
+    .logo-text span {
+      color: #ffe3b6;
+    }
+
+    /* ===== SCROLL ANIMATIONS ===== */
+
+    .fade-section {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .fade-section.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== BACK TO TOP BUTTON ===== */
+
+    .back-to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      border: none;
+      background-image: var(--pgw-gradient);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 12px 30px rgba(177, 75, 120, 0.6);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(15px);
+      transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease, background-image 0.25s ease;
+      z-index: 999;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .back-to-top span {
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .back-to-top:hover {
+      background-image: var(--pgw-gradient-hover);
+      transform: translateY(-2px);
+    }
+
+    /* ===== FLOATING PEPTIDE GIRLY MASCOT (PNG) ===== */
+
+    .mascot-circle {
+      position: fixed;
+      left: 18px;
+      bottom: 80px;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: radial-gradient(circle at 30% 20%, #ffeaf4, #ffbddc);
+      box-shadow: 0 14px 32px rgba(192, 88, 136, 0.55);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 998;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.4s ease, opacity 0.3s ease;
+      cursor: default;
+      border: 2px solid rgba(255, 255, 255, 0.9);
+    }
+
+    .mascot-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .mascot-circle:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 18px 40px rgba(192, 88, 136, 0.7);
+    }
+
+    /* Pulse only in dark mode */
+    @keyframes mascot-pulse {
+      0% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.8);
+      }
+      50% {
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 18px 46px rgba(0, 0, 0, 1);
+      }
+      100% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    /* ===== DARK MODE OVERRIDES ===== */
+
+    body.dark-mode {
+      background: var(--pgw-dark-bg);
+      color: var(--pgw-dark-text);
+    }
+
+    body.dark-mode .site-blocks-cover::before {
+      background: radial-gradient(circle at top left, rgba(121,68,128,0.75), transparent 55%),
+                  radial-gradient(circle at top right, rgba(99,52,106,0.75), transparent 55%),
+                  rgba(4,0,9,0.8);
+    }
+
+    body.dark-mode .hero-inner {
+      background: var(--pgw-dark-hero);
+      box-shadow: 0 28px 70px rgba(0, 0, 0, 0.9);
+      border-color: rgba(255, 199, 240, 0.2);
+      color: var(--pgw-dark-text);
+    }
+
+    body.dark-mode .hero-inner h1,
+    body.dark-mode .hero-inner h4,
+    body.dark-mode .hero-inner p,
+    body.dark-mode .hero-inner .girly-label,
+    body.dark-mode .hero-inner .filipina-note,
+    body.dark-mode .hero-inner .disclaimer,
+    body.dark-mode .hero-inner strong {
+      color: var(--pgw-dark-text);
+    }
+
+    body.dark-mode .hero-pill {
+      background: rgba(46, 19, 53, 0.96);
+      color: var(--pgw-dark-pink-soft);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.85);
+    }
+
+    body.dark-mode .catalog-section {
+      background: radial-gradient(circle at top left, rgba(104, 44, 118, 0.6) 0, transparent 45%),
+                  radial-gradient(circle at top right, rgba(120, 58, 124, 0.55) 0, transparent 45%),
+                  #0b050c;
+    }
+
+    body.dark-mode .section-title {
+      color: var(--pgw-dark-text);
+    }
+
+    body.dark-mode .section-subtitle {
+      color: var(--pgw-dark-pink-soft);
+    }
+
+    body.dark-mode .filter-pill {
+      background: rgba(22, 9, 29, 0.96);
+      border-color: rgba(255, 182, 226, 0.4);
+      color: var(--pgw-dark-pink-soft);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.85);
+    }
+
+    body.dark-mode .filter-pill.active {
+      background-image: var(--pgw-gradient);
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.95);
+    }
+
+    body.dark-mode .catalog-card {
+      background: var(--pgw-dark-card);
+      border-color: var(--pgw-dark-border);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.85);
+    }
+
+    body.dark-mode .catalog-card::after {
+      opacity: 0.35;
+    }
+
+    body.dark-mode .catalog-card h3 {
+      color: var(--pgw-dark-text);
+    }
+
+    body.dark-mode .peptide-code {
+      color: var(--pgw-dark-muted);
+    }
+
+    body.dark-mode .peptide-notes {
+      color: #e9c6f5;
+    }
+
+    body.dark-mode .category-pill {
+      background: rgba(255, 156, 211, 0.12);
+      color: var(--pgw-dark-pink-soft);
+      border: 1px solid rgba(255, 156, 211, 0.35);
+    }
+
+    body.dark-mode .tag-mini {
+      background: rgba(154, 118, 209, 0.15);
+      color: #e3caff;
+    }
+
+    body.dark-mode .disclaimer,
+    body.dark-mode .disclaimer strong {
+      color: #b38bbd;
+    }
+
+    body.dark-mode .telegram-section {
+      background: radial-gradient(circle at top, #231126 0, #120812 40%, #060307 100%);
+    }
+
+    body.dark-mode .telegram-card {
+      background: rgba(25, 9, 30, 0.96);
+      border-color: rgba(255, 196, 239, 0.18);
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.95);
+    }
+
+    body.dark-mode .peptide-girly-badge {
+      background: rgba(55, 18, 68, 0.96);
+      color: var(--pgw-dark-pink-soft);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+    }
+
+    body.dark-mode footer {
+      background: #09020b;
+    }
+
+    body.dark-mode .theme-toggle {
+      background: rgba(23, 8, 30, 0.96);
+      border-color: rgba(255, 182, 226, 0.5);
+      color: var(--pgw-dark-pink-soft);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.9);
+    }
+
+    body.dark-mode .theme-toggle:hover {
+      background: rgba(32, 11, 42, 0.98);
+    }
+
+    body.dark-mode .back-to-top {
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.95);
+    }
+
+    body.dark-mode .mascot-circle {
+      background: radial-gradient(circle at 30% 20%, #32102f, #8f3c6f);
+      animation: mascot-pulse 1.6s infinite;
+      box-shadow: 0 18px 46px rgba(0, 0, 0, 1);
+    }
+
+    /* ===== RESPONSIVE ===== */
+
+    @media (max-width: 767.98px) {
+      .hero-inner {
+        padding: 18px 16px 20px;
+        margin: 0 10px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h4 {
+        font-size: 15px;
+      }
+      .theme-toggle {
+        top: 10px;
+        right: 10px;
+      }
+      .mascot-circle {
+        left: 12px;
+        bottom: 72px;
+        width: 56px;
+        height: 56px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- THEME TOGGLE (LIGHT / DARK) -->
+<button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+  <span class="theme-toggle-icon">🌙</span>
+  <span class="theme-toggle-text">Night mode</span>
+</button>
+
+<!-- FLOATING PEPTIDE GIRLY MASCOT (PNG) -->
+<div class="mascot-circle">
+  <img src="images/peptide-girly.png" alt="Peptide Girly Mascot" class="mascot-img">
+</div>
+
+<!-- HERO -->
+<section class="site-blocks-cover" style="background-image: url('images/3d-representation-dna.jpg');">
+  <div class="container h-100 d-flex align-items-center justify-content-center text-center">
+    <div class="hero-inner fade-section">
+      <div class="mb-2">
+        <span class="hero-pill">
+          <span class="hero-pill-dot"></span>
+          PEPTIDES GLOW WELLNESS · PH
+        </span>
+      </div>
+      <h1 class="mb-1">Peptides Glow Wellness</h1>
+      <h4 class="mb-3">Filipina Peptide Girly — Research-Only Catalog</h4>
+
+      <p class="mb-2 girly-label">
+        For mga lab girlies, scientists, and research teams — hindi para sa DIY or self-use.
+      </p>
+      <p class="disclaimer mb-1">
+        All items listed here are <strong>for laboratory, research, and development purposes only.</strong>
+      </p>
+      <p class="disclaimer mb-3">
+        Not for human consumption, medical use, cosmetic use, or veterinary use.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#catalog" class="btn-pill-secondary">Browse Peptide Catalog</a>
+        <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram">
+          💬 Telegram Inquiry
+        </a>
+      </div>
+      <p class="filipina-note mb-0">
+        Curated by a Filipina “peptide girly” for legit research only—never for self-medication or cosmetic injections.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOG SECTION -->
+<section class="catalog-section" id="catalog">
+  <div class="container">
+    <div class="row text-center fade-section">
+      <div class="col-12">
+        <div class="catalog-header">
+          <div class="section-subtitle mb-1">Research Catalog</div>
+          <h2 class="section-title mb-2">Peptides Lineup (Research Use Only)</h2>
+          <p class="disclaimer">
+            This catalog lists research materials intended for controlled laboratory environments only.  
+            No dosing, protocol, or health claims are provided or implied. All details are for product identification only.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="row fade-section">
+      <div class="col-12">
+        <div class="filter-bar">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="weight">Weight Loss</button>
+          <button class="filter-pill" data-filter="beauty">Beauty</button>
+          <button class="filter-pill" data-filter="longevity">Longevity</button>
+          <button class="filter-pill" data-filter="neuro">Neuro</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <!-- Tirze 15mg (weight, longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Metabolic Pathway Research</span>
+          <h3>Tirze 15mg</h3>
+          <div class="peptide-code">Code: TIRZE-15 · Strength: 15mg</div>
+          <p class="peptide-notes">
+            Research peptide supplied at 15mg strength for studies related to metabolic and receptor
+            model systems in qualified laboratory settings.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Lab-grade</span>
+            <span class="tag-mini">Not for clinical use</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Tirze 15mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tirze 30mg (weight, longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Metabolic Pathway Research</span>
+          <h3>Tirze 30mg</h3>
+          <div class="peptide-code">Code: TIRZE-30 · Strength: 30mg</div>
+          <p class="peptide-notes">
+            Higher-strength Tirze format designed for research groups requiring 30mg configuration
+            for advanced experimental designs.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">For R&D only</span>
+            <span class="tag-mini">Institutional buyers</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Tirze 30mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reta 10mg (weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Metabolic / Experimental</span>
+          <h3>Reta 10mg</h3>
+          <div class="peptide-code">Code: RETA-10 · Strength: 10mg</div>
+          <p class="peptide-notes">
+            Experimental peptide material provided at 10mg for research work on complex metabolic pathway models,
+            under controlled laboratory protocols.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Experimental</span>
+            <span class="tag-mini">Strict handling</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Reta 10mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ghk-Cu 100mg (beauty) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Cell Signaling / Matrix</span>
+          <h3>GHK-Cu 100mg</h3>
+          <div class="peptide-code">Code: GHKCU-100 · Strength: 100mg</div>
+          <p class="peptide-notes">
+            Copper peptide supplied for research focusing on cell signaling, extracellular matrix interaction,
+            and related biochemical models.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Copper peptide</span>
+            <span class="tag-mini">In-vitro / in-vivo research</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: GHK-Cu 100mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cagri 10mg (weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Metabolic / Satiety Models</span>
+          <h3>Cagri 10mg</h3>
+          <div class="peptide-code">Code: CAGRI-10 · Strength: 10mg</div>
+          <p class="peptide-notes">
+            Research-use peptide material used in studies involving appetite and metabolic regulation pathways
+            in preclinical research models.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">For lab only</span>
+            <span class="tag-mini">No dosing guidance</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Cagri 10mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lipo-C Fat Blaster 526mg (weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Biochemical Reagent Blend</span>
+          <h3>Lipo-C Fat Blaster 526mg</h3>
+          <div class="peptide-code">Code: LIPC-526 · Strength: 526mg</div>
+          <p class="peptide-notes">
+            Reagent blend intended for research projects involving biochemical and lipid-metabolism–related
+            experimental setups.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Reagent only</span>
+            <span class="tag-mini">Not for injection</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Lipo-C 526mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAD+ 500mg (longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Cellular Energy Models</span>
+          <h3>NAD+ 500mg</h3>
+          <div class="peptide-code">Code: NAD-500 · Strength: 500mg</div>
+          <p class="peptide-notes">
+            Coenzyme research material used in studies related to cellular energy, oxidation–reduction reactions,
+            and longevity-related models.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Coenzyme research</span>
+            <span class="tag-mini">Not for therapy</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: NAD+ 500mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- GLOW 70mg (beauty, longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Custom Research Blend</span>
+          <h3>GLOW 70mg</h3>
+          <div class="peptide-code">Code: GLOW-70 · Strength: 70mg</div>
+          <p class="peptide-notes">
+            Custom research blend labeled “GLOW 70mg”, available for investigative work in experimental models
+            as specified in accompanying technical sheets.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Blend</span>
+            <span class="tag-mini">Project-based use</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: GLOW 70mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SS-31 10mg (longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Mitochondrial Research</span>
+          <h3>SS-31 10mg</h3>
+          <div class="peptide-code">Code: SS31-10 · Strength: 10mg</div>
+          <p class="peptide-notes">
+            Peptide material for research teams focusing on mitochondrial models and oxidative stress–related studies
+            within controlled labs.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Mito models</span>
+            <span class="tag-mini">Preclinical only</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: SS-31 10mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPV 10mg (longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Inflammation Models</span>
+          <h3>KPV 10mg</h3>
+          <div class="peptide-code">Code: KPV-10 · Strength: 10mg</div>
+          <p class="peptide-notes">
+            Tripeptide research material used in studies involving inflammatory pathways and tissue response
+            in appropriate research settings.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Tripeptide</span>
+            <span class="tag-mini">Lab use only</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: KPV 10mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Snap 8 10mg (beauty) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Peptide Analogue</span>
+          <h3>Snap 8 10mg</h3>
+          <div class="peptide-code">Code: SNAP8-10 · Strength: 10mg</div>
+          <p class="peptide-notes">
+            Peptide analogue used for research associated with peptide–receptor interactions and surface binding
+            in cosmetic-science–related models (lab only).
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Analogue</span>
+            <span class="tag-mini">No cosmetic claims</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Snap 8 10mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Glutathione 1500mg (beauty, longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Redox / Antioxidant Models</span>
+          <h3>Glutathione 1500mg</h3>
+          <div class="peptide-code">Code: GSH-1500 · Strength: 1500mg</div>
+          <p class="peptide-notes">
+            Glutathione research material provided for redox balance, antioxidant activity, and related biochemical
+            experiments in vitro and in vivo (research-only).
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">High-strength</span>
+            <span class="tag-mini">Not for whitening use</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Glutathione 1500mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lemon Bottle 10ml (weight, beauty) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight beauty">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Localized Adipose Models</span>
+          <h3>Lemon Bottle 10ml</h3>
+          <div class="peptide-code">Code: LEMON-10 · Volume: 10ml</div>
+          <p class="peptide-notes">
+            Solution used in research models exploring localized adipose tissue response and related experimental
+            designs in aesthetic-science labs.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Lab reagent</span>
+            <span class="tag-mini">Not for aesthetic use</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Lemon Bottle 10ml (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lemon Bottle Korean Box (weight, beauty) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight beauty">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Boxed Research Set</span>
+          <h3>Lemon Bottle Korean Box</h3>
+          <div class="peptide-code">Code: LEMON-KBOX · Format: Box Set</div>
+          <p class="peptide-notes">
+            Boxed configuration of Lemon Bottle vials for research groups requiring standardized packaging
+            and batch-based studies.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Boxed vials</span>
+            <span class="tag-mini">Research packaging</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Lemon Bottle Korean Box (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aqualyx 10ml per vial (weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Fat-Dissolution Models</span>
+          <h3>Aqualyx 10ml per vial</h3>
+          <div class="peptide-code">Code: AQLX-10 · Volume: 10ml/vial</div>
+          <p class="peptide-notes">
+            Research solution used in models studying adipose tissue dissolution and distribution under
+            laboratory-controlled conditions.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Tissue models</span>
+            <span class="tag-mini">Not for injection clinics</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Aqualyx 10ml (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Motsc 40mg (longevity, weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="longevity weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Mitochondrial / Metabolic</span>
+          <h3>Motsc 40mg</h3>
+          <div class="peptide-code">Code: MOTSC-40 · Strength: 40mg</div>
+          <p class="peptide-notes">
+            Peptide used in research relating to mitochondrial function and metabolic adaptation models
+            in preclinical studies.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Mito peptide</span>
+            <span class="tag-mini">Preclinical only</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Motsc 40mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AHK-CU 100mg (beauty) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Peptide-Copper Complex</span>
+          <h3>AHK-CU 100mg</h3>
+          <div class="peptide-code">Code: AHKCU-100 · Strength: 100mg</div>
+          <p class="peptide-notes">
+            Copper peptide complex used for cell-signaling and tissue-response–related experiments in
+            cosmetic science and regenerative research models.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Copper complex</span>
+            <span class="tag-mini">No cosmetic marketing</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: AHK-CU 100mg (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AOD 5mg w/ Bac & AA water (weight) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="weight">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Fragment Peptide Research</span>
+          <h3>AOD 5mg w/ Bac &amp; AA water</h3>
+          <div class="peptide-code">Code: AOD-5KIT · Strength: 5mg + Bac/AA</div>
+          <p class="peptide-notes">
+            AOD fragment peptide kit including bacteriostatic and ascorbic acid water for research setups;
+            supplied strictly as a lab material, not as a finished product for use.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Kit format</span>
+            <span class="tag-mini">Research configuration</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: AOD 5mg Kit (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAD+ S Vial 10ml (for microneedling) (beauty, longevity) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="beauty longevity">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Topical / Device Research</span>
+          <h3>NAD+ S Vial 10ml (for microneedling)</h3>
+          <div class="peptide-code">Code: NADS-10 · Volume: 10ml</div>
+          <p class="peptide-notes">
+            NAD+ solution vial labeled for microneedling-related device research and topical delivery studies.
+            Not for cosmetic treatment of human subjects.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Device research</span>
+            <span class="tag-mini">Not a cosmetic service</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: NAD+ S Vial 10ml (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Semax (neuro) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="neuro">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Neurochemical Pathways</span>
+          <h3>Semax</h3>
+          <div class="peptide-code">Code: SEMX-RES · Format: Peptide Research Material</div>
+          <p class="peptide-notes">
+            Investigational peptide for neurochemical and cognitive-pathway experiments in suitable
+            research facilities, under approved protocols.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Neuro research</span>
+            <span class="tag-mini">No cognitive claims</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Semax (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selanx (neuro) -->
+      <div class="col-md-6 col-lg-4 mb-4 fade-section peptide-card-wrapper" data-cats="neuro">
+        <div class="catalog-card d-flex flex-column">
+          <span class="category-pill">Neurobehavioral Models</span>
+          <h3>Selanx</h3>
+          <div class="peptide-code">Code: SELANX-RES · Format: Peptide Research Material</div>
+          <p class="peptide-notes">
+            Peptide material referred to as “Selanx”, provided for neurobehavioral and emotional-regulation–related
+            models within controlled lab environments.
+          </p>
+          <div class="mb-2">
+            <span class="tag-mini">Lab-only</span>
+            <span class="tag-mini">Not for anxiety treatment</span>
+          </div>
+          <div class="mt-auto">
+            <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram btn-sm">
+              💬 Inquire: Selanx (Research)
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-3 fade-section">
+      <div class="col-12 text-center">
+        <p class="disclaimer mb-1">
+          <strong>Important:</strong> This catalog intentionally does not display prices, usage guidance, or handling protocols.
+        </p>
+        <p class="disclaimer mb-0">
+          All such details, if applicable, are shared only with verified research buyers via Telegram and in compliance with
+          research-use-only conditions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TELEGRAM SECTION -->
+<section class="telegram-section">
+  <div class="container fade-section">
+    <div class="text-center mb-4">
+      <div class="section-subtitle mb-1">Telegram-Only Access</div>
+      <h2 class="section-title mb-2">Orders & Research Inquiries</h2>
+      <p class="filipina-note mb-0">
+        Para safe, legit, at properly screened — lahat ng usapan for research supply is done inside Telegram only. 💖
+      </p>
+    </div>
+
+    <div class="telegram-card text-center">
+      <div class="mb-2">
+        <span class="peptide-girly-badge">🧪 Peptide Girly · Research Mode On</span>
+      </div>
+      <p class="mb-3">
+        For availability, batch details, minimum order quantities, or institutional verification,
+        please message the official Peptides Glow Wellness account on Telegram.
+      </p>
+
+      <a href="https://t.me/+ZpCy8pvw6AU4NDA9" target="_blank" class="btn-telegram">
+        💬 Open Peptides Glow Telegram
+      </a>
+
+      <p class="disclaimer mt-3 mb-0">
+        We do not confirm orders, accept payments, or share technical sheets outside this Telegram channel.
+        This helps prevent misuse, reselling for non-research purposes, and unsafe DIY experimentation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-light text-center">
+  <div class="container">
+    <p class="logo-text mb-1">PEPTIDES <span>GLOW</span> WELLNESS · RESEARCH ONLY</p>
+    <p class="disclaimer mb-2">
+      All materials are supplied exclusively for <strong>laboratory, research, and scientific development purposes</strong>.  
+      Not for human, cosmetic, veterinary, or household use.
+    </p>
+    <p class="disclaimer mb-0">
+      &copy; <script>document.write(new Date().getFullYear());</script> Peptides Glow Wellness. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+<button class="back-to-top" aria-label="Back to top">
+  <span>↑</span>
+</button>
+
+<!-- Minimal JS for animations, theme, filters & UX -->
+<script>
+  // Scroll reveal using IntersectionObserver
+  const fadeEls = document.querySelectorAll('.fade-section');
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+  fadeEls.forEach(el => observer.observe(el));
+
+  // Back to top button visibility
+  const backToTopBtn = document.querySelector('.back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTopBtn.classList.add('visible');
+    } else {
+      backToTopBtn.classList.remove('visible');
+    }
+  });
+
+  // Back to top smooth scroll
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Smooth scroll for internal anchor links (fallback)
+  document.addEventListener('click', function (e) {
+    const target = e.target.closest('a[href^="#"]');
+    if (!target) return;
+    const id = target.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if (el) {
+      e.preventDefault();
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+
+  // Dark mode toggle
+  const themeToggle = document.querySelector('.theme-toggle');
+  const themeIcon = document.querySelector('.theme-toggle-icon');
+  const themeText = document.querySelector('.theme-toggle-text');
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      document.body.classList.add('dark-mode');
+      themeIcon.textContent = '🌙';
+      themeText.textContent = 'Night mode';
+    } else {
+      document.body.classList.remove('dark-mode');
+      themeIcon.textContent = '☀️';
+      themeText.textContent = 'Day mode';
+    }
+  }
+
+  const savedTheme = localStorage.getItem('pgw-theme');
+  if (savedTheme) {
+    applyTheme(savedTheme);
+  } else {
+    applyTheme('light');
+  }
+
+  themeToggle.addEventListener('click', () => {
+    const isDark = document.body.classList.contains('dark-mode');
+    const newTheme = isDark ? 'light' : 'dark';
+    applyTheme(newTheme);
+    localStorage.setItem('pgw-theme', newTheme);
+  });
+
+  // Filter bar JS
+  const filterButtons = document.querySelectorAll('.filter-pill');
+  const peptideCards = document.querySelectorAll('.peptide-card-wrapper');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      // set active button
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      peptideCards.forEach(card => {
+        const cats = card.getAttribute('data-cats') || '';
+        if (filter === 'all') {
+          card.classList.remove('peptide-hidden');
+        } else {
+          if (cats.split(' ').includes(filter)) {
+            card.classList.remove('peptide-hidden');
+          } else {
+            card.classList.add('peptide-hidden');
+          }
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
